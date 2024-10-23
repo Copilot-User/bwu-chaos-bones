@@ -29,7 +29,7 @@ public class OfferBonesTask implements Task {
 
         CustomLogger.log("Offering bones.");
         object.interact(Constants.ACTION);
-        script.queueTask(new WaitTask(s -> Backpack.contains(Constants.BONES_PATTERN), new BankTask()));
+        script.queueTask(new WaitTask(s -> Backpack.contains(Constants.BONES_PATTERN), new BankTask(), 150));
     }
 
 }

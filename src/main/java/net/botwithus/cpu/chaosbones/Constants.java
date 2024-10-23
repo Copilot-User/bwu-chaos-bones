@@ -11,4 +11,5 @@ public class Constants {
     public static final String ACTION = "Offer";
     public static final Area ALATAR_AREA = new Area.Circular(new Coordinate(3239, 3609, 0), 3);
     public static final String BANK_OPTION = "Load Last Preset from";
+    public static final long DEFAULT_WAIT_TIMEOUT_TICKS = 50; // 30 seconds
 }
